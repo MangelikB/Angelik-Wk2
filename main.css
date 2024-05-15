@@ -1,0 +1,51 @@
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(2, 153, 52);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    Display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 12px;
+}
+.box{
+    border: 2px solid rgb(124, 124, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(123, 255, 255);
+    padding: 15px;
+    text-align: center;
+    margin-right: 20px;
+}
+.box:nth-child(2){
+    order:3;
+}
+.box:nth-child(3){
+    order:2;
+}
+/* Second row*/
+.container2{
+    Display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 12px;
+}
+.box2{
+    border: 2px solid rgb(124, 124, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(123, 255, 255);
+    padding: 15px;
+    text-align: center;
+    margin-right: 20px;
+}
+.box2:nth-child(3){
+    order:1;
+}
+.box2:nth-child(2){
+    order:4;
+}
+.box2:nth-child(4){
+    order:2;
+}
